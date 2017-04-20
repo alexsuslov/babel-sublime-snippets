@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-{(${1:items}) && (${1:items}.map((v, i) => (<${2:Row} key={i} {...v} />))}
+{(${1:items}) && ${1:items}.map(v => (<${2:Row} key={v.id} {...v} />)}
 ]]></content>
     <tabTrigger>rcm</tabTrigger>
     <scope>source.js meta.jsx.js - meta.embedded.expression</scope>
