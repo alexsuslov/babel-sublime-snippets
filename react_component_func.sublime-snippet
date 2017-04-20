@@ -3,18 +3,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Component => props => {
+const ${1:Component} => props => {
   return (<div>
     ${0}
   </div>);
 }
 
-Component.propTypes = {
+${1:Component}.propTypes = {
 };
 
-export default Component;
+export default ${1:Component};
 ]]></content>
     <tabTrigger>rcf</tabTrigger>
     <scope>source.js -(meta)</scope>
-    <description>React: func component</description>
+    <description>React: state less component</description>
 </snippet>
