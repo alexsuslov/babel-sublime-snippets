@@ -3,7 +3,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ${1:Component} => props => {
+const ${1:Component} = props => {
   return (<div>
     ${0}
   </div>);
