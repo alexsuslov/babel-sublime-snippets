@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const Component => props => {
+  return (<div>
+    ${0}
+  </div>);
+}
+
+Component.propTypes = {
+};
+
+export default Component;
+]]></content>
+    <tabTrigger>rcf</tabTrigger>
+    <scope>source.js -(meta)</scope>
+    <description>React: func component</description>
+</snippet>
