@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+const ${1:handle} = props => {
+  return e => {
+    ${2:console.log(e);}
+  };
+};
+]]></content>
+    <tabTrigger>handle</tabTrigger>
+    <scope>source.js</scope>
+    <description>Simple event handle</description>
+</snippet>

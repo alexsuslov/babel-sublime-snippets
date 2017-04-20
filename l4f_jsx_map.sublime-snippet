@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+{(${1:items}) && (${1:items}.map((v, i) => (<${2:Row} key={i} {...v} />))}
+]]></content>
+    <tabTrigger>rcm</tabTrigger>
+    <scope>source.js meta.jsx.js - meta.embedded.expression</scope>
+    <description>React: Map</description>
+</snippet>

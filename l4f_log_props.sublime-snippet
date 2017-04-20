@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+console.log(${1:props});
+]]></content>
+    <tabTrigger>log</tabTrigger>
+    <scope>source.js</scope>
+    <description>console.log(props)</description>
+</snippet>
